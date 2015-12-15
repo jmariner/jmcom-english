@@ -1,0 +1,119 @@
+* { margin: 0; padding: 0;box-sizing: border-box;}
+html {
+	width: 100vw;
+	min-height: 100vh;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	font: 14px 'Roboto', sans-serif;
+	background: rgb(58, 9, 9);
+	/* TODO fix this
+	overflow-x: hidden;*/
+}
+
+main {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+header {
+	display: inline-block;
+	width: 90%;
+	font-weight: bold;
+}
+
+header > * { width: 100%; }
+
+.titlebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: rgb(193, 174, 132);
+	padding: 16px 0;
+}
+
+.title {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.title a {
+	text-decoration: blink;
+	color: inherit;
+}
+
+.name {
+	font-size: 20px;
+}
+
+nav {
+	display: flex;
+	font-size: 20px;
+	background-color: rgb(169, 144, 90);
+	height: 36px;
+	line-height: 36px;
+}
+
+nav a {
+	flex-grow: 1;
+	text-align: center;
+	color: rgb(0,0,0);
+	text-decoration: blink;
+	display: inline-block;
+}
+
+nav a.current {
+	background-color: rgba(0, 255, 0, 0.5);
+	/* todo downward arrow below navbar */
+}
+
+nav a:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+main {
+	margin: 16px 0;
+	padding-bottom: 32px;
+	width: 90%;
+	min-height: 75vh;
+	background: url("/assets/img/scroll_background.jpg");
+	background-size: 110% 100%;
+}
+
+main .images {
+	width: 15%;
+}
+
+main .md {
+	width: 85%;
+	counter-reset: headerlist;
+}
+
+main .md h1 {
+	text-align: center;
+	margin: 32px 0;
+	text-decoration: underline;
+}
+
+main .md h2 {
+	margin: 32px 0 8px 24px;
+	position: relative;
+	counter-reset: sublist;
+}
+
+main .md h2:before {
+	content: counter(headerlist) ". ";
+	counter-increment: headerlist;
+	position: absolute;
+	left: -24px;
+}
+
+main .md p {
+	margin-left: 24px;
+}

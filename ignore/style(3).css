@@ -1,0 +1,44 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html {
+	width: 100vw;
+	min-height: 100vh;
+}
+body {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+	font: 14px 'Roboto', sans-serif;
+	background: rgba(40, 40, 40, 1);
+}
+
+main {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-wrap, .box-wrap {
+	padding: 32px;
+}
+
+.title-wrap {
+	font-size: 32px;
+	width: 75%;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("/assets/lined.jpg");
+	background-size: 100%;
+	background-position-y: -100px;
+}
+
+.box-wrap {
+	width: 50%;
+	height: 75vh;
+}
+

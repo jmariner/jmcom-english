@@ -1,0 +1,12 @@
+---
+layout: ren
+title: Renaissance - Shakespeare
+location: ren-hamlet
+---
+<main>
+	<div class="images"></div>
+	<div class="md">
+		{% capture mark %}{% include hamlet.md %}{% endcapture %}
+		{{ mark | markdownify }}
+	</div>
+</main>
