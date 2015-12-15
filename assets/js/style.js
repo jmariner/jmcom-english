@@ -1,3 +1,3 @@
 $(function() {
-	$("nav a." + $("body").attr("data-location").replace("ren-","")).addClass("current");
+	$("nav a." + /^ren\-(.+)$/.exec($("body").attr("data-location"))[1]).addClass("current");
 });

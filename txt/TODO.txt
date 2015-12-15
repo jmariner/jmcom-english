@@ -1,6 +1,3 @@
 TODO
 
-jekyll this whole thing
-make it work at school
-create landing page
-markdown on each page
+create landing page (/renaissance) with more stylish links to each catagory

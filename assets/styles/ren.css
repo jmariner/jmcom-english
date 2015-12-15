@@ -11,8 +11,8 @@ body {
 	min-height: 100vh;
 	font: 14px 'Roboto', sans-serif;
 	background: rgb(58, 9, 9);
-	/* TODO fix this
-	overflow-x: hidden;*/
+	/* TODO fix this*/
+	overflow-x: hidden;
 }
 
 main {
@@ -66,11 +66,21 @@ nav a {
 	color: rgb(0,0,0);
 	text-decoration: blink;
 	display: inline-block;
+	position: relative;
 }
 
-nav a.current {
-	background-color: rgba(0, 255, 0, 0.5);
-	/* todo downward arrow below navbar */
+nav a.current:after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: 100%;
+	border-width: 16px;
+	border-color: rgb(169, 144, 90) transparent;
+	border-style: solid;
+	border-bottom: none;
 }
 
 nav a:hover {
@@ -78,7 +88,7 @@ nav a:hover {
 }
 
 main {
-	margin: 16px 0;
+	margin: 16px 0 65px 0;
 	padding-bottom: 32px;
 	width: 90%;
 	min-height: 75vh;
@@ -102,7 +112,7 @@ main .md h1 {
 }
 
 main .md h2 {
-	margin: 32px 0 8px 24px;
+	margin: 32px 0 8px 40px;
 	position: relative;
 	counter-reset: sublist;
 }
@@ -111,9 +121,9 @@ main .md h2:before {
 	content: counter(headerlist) ". ";
 	counter-increment: headerlist;
 	position: absolute;
-	left: -24px;
+	left: -40px;
 }
 
 main .md p {
-	margin-left: 24px;
+	margin-left: 40px;
 }
