@@ -1,40 +1,40 @@
 # Shakespeare
 
-## When & where was Shakespeare born? 
-In Stratford-upon-Avon on April 23, 1564
+## When & where was Shakespeare born?
+William Shakespeare was born in Stratford-upon-Avon on April 23, 1564.
 
 ## What do we know about Shakespeare’s education?
-That he may have attended grammar school in Stratford but no records exist
+It is assumed that Shakespeare may have attended grammar school in Stratford, but there are no existing records to prove it.
 
 ## How old was he when he married? Why did he marry Anne Hathaway?
-He was 18; she was pregnant
+Shakespeare married Anna Hathaway when he was 18 because she was pregnant.
 
 ## How old was she when they married?
-26
+Anna Hathaway was married when she was 26 years old.
 
 ## How many children did he have? What were their names?
-Susanna, Hamnet, Judith, so 3 children
+Shakespeare and Hathaway had 3 children: Susanna, Hamnet, and Judith.
 
 ## What was the name of Shakespeare’s first acting company?
-Lord Chamberlain’s Men (later King’s Men)
+Shakespeare's first acting company was named Lord Chamberlain's Men.
 
 ## How many plays and poems is Shakespeare known for writing?
-38 plays, 154 sonnets
+William Shakespeare is known for writing 38 plays and 154 sonnets.
 
 ## How old was he when he retired?
-In 1611, so 66 or 67
+He retired in 1611, which means he was either 66 or 67 years old at the time.
 
 ## What’s on the Shakespeare family crest?
-Fire
+The Shakespeare family crest is a coat of arms.
 
 ## Under King James, what acting troupe was Shakespeare a part of?
-King’s Men
+Once King James took over, Shakespeare's acting group was renamed to the "King's Men".
 
 ## Why were the theaters closed for many months?
-Code of arms
+The theaters were closed for many months due to a Code of Arms.
 
 ## What was the name of Shakespeare’s retirement home?
-“New House”
+After retiring, Shakespeare bought a house and deemed it “New House”.
 
 ## Where is Shakespeare buried?
-Holy Trinity in Stratford
+Shakespeare was buried at Holy Trinity in Stratford.

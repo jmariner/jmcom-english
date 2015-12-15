@@ -1,30 +1,21 @@
 # Hamlet
 
 ## What is the origin of the play?
-Based on a Norse legend by Saxo Grammaticus written around 1200 AD
-Tells the tale of Amleth, Saxo's Hamlet
-Hamlet was the son of the king’s brother and the king’s daughter
-The king’s other brother killed the first one, married the king’s daughter, and took rule over the area they both controlled
-Amleth pretends to be insane to stay alive and plans revenge on his uncle
-Amleth becomes king of Jutland, the area the brothers had owned
+Hamlet was based on a 1200 AD Norse legend written by Saxo Grammaticus. The legend telling the tale of Amleth, Saxo's version of Shakespeare's Hamlet, went like this:
+King Rorik of the Danes gave his two brothers, Orvendil and Fengi, control over an area called Jutland. Amleth was the son of the King's brother, Orvendil, and the King's daughter, Geruth. Fengi, lusting for Geruth and wanting full control over Jutland, killed Orvendil, married Geruth, and took his reign over Jutland. Amleth, in an effort to stay alive, feigns insanity as he plans revenge on his uncle, Fengi. Eventually, Amleth becomes the sole King of Jutland.
 
-## What kinds of events in a person’s life can cause overwhelming feelings of grief? Consider different life situations that may be traumatic, such as the death of a loved one.
-Death of a loved one; hate among family members; imprisonment or exile of a loved one
+## What kinds of events in a person’s life can cause overwhelming feelings of grief?
+Events in life that can cause a large amount of grief are: death of a loved one, hate among family members or seperation of parents, imprisonment or exile of a loved on, and poverish situations.
 
 ## Research and describe some of the characteristics of people who are grieving. Try to give reasons for their attitudes or actions.
 Forgetfulness – too busy thinking about the loss to remember anything else
-Disorganization
+Disorganization - confused about the whole situation
 Preoccupation with the loss – Mind wanders so hard to keep on task
 Lack of motivation – May feel that things just “don’t matter”
 Chronic Fatigue – grief is exhausting
 
 ## What kind of play is Hamlet?
-Originally called a “problem play”
-Can be considered a “revenge play”
+Hamlet was originally called a “problem play” and can also be considered a “revenge play”.
 
 ## What are the elements of a revenge play?
-A hero who needs to avenge an evil event with encouragement from a close friend or family
-Death/mutilation scenes
-(Fake) Insanity
-Sub-plays
-The violent death of the hero
+The element of a revenge play are: a hero who needs to avenge an evil event with encouragement, death scenes, (sometimes fake) insanity, sub-plays, and the violent death of the hero.

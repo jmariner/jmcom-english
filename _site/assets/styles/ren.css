@@ -103,6 +103,7 @@ main .images {
 main .md {
 	width: 85%;
 	counter-reset: headerlist;
+	padding-right: 64px;
 }
 
 main .md h1 {
