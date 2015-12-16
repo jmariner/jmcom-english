@@ -6,6 +6,7 @@ location: ren-pen-to-print
 <main>
 	<div class="images"></div>
 	<div class="md">
-		
+		{% capture mark %}{% include pen-to-print.md %}{% endcapture %}
+		{{ mark | markdownify }}
 	</div>
 </main>

@@ -11,6 +11,6 @@ body {
 	min-height: 100vh;
 	font: 14px 'Roboto', sans-serif;
 	background: rgb(58, 9, 9);
-	/* TODO fix this*/
-	overflow-x: hidden;
+	/* TODO fix scrollbar appearing when nothing to scroll*/
+	overflow-x: hidden; 
 }

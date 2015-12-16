@@ -6,6 +6,7 @@ location: ren-trivia
 <main>
 	<div class="images"></div>
 	<div class="md">
-		
+		{% capture mark %}{% include trivia.md %}{% endcapture %}
+		{{ mark | markdownify }}
 	</div>
 </main>

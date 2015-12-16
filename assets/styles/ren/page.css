@@ -76,7 +76,7 @@ main {
 	width: 90%;
 	min-height: 75vh;
 	background: url("/assets/img/scroll_background.jpg");
-	background-size: 110% 100%;
+	background-size: 101% 100%;
 }
 
 main .images {
@@ -90,24 +90,30 @@ main .md {
 }
 
 main .md h1 {
+	font-size: 40px;
 	text-align: center;
 	margin: 32px 0;
 	text-decoration: underline;
 }
 
 main .md h2 {
-	margin: 32px 0 8px 40px;
-	position: relative;
-	counter-reset: sublist;
+	margin: 32px 0 8px 0;
 }
 
-main .md h2:before {
+main .md.numbered-h2 h2 {
+	margin-left: 40px;
+	position: relative;
+}
+
+main .md.numbered-h2 h2:before {
 	content: counter(headerlist) ". ";
 	counter-increment: headerlist;
 	position: absolute;
 	left: -40px;
 }
 
-main .md p {
+main .md.numbered-h2 p {
 	margin-left: 40px;
 }
+
+.md h2, .md p { font-size: 20px; }

@@ -22,7 +22,7 @@ Shakespeare's first acting company was named Lord Chamberlain's Men.
 William Shakespeare is known for writing 38 plays and 154 sonnets.
 
 ## How old was he when he retired?
-He retired in 1611, which means he was either 66 or 67 years old at the time.
+He retired in 1611, which means he was either about 47 years old at the time.
 
 ## What’s on the Shakespeare family crest?
 The Shakespeare family crest is a coat of arms.

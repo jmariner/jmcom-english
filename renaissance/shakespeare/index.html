@@ -5,7 +5,7 @@ location: ren-shakespeare
 ---
 <main>
 	<div class="images"></div>
-	<div class="md">
+	<div class="md numbered-h2">
 		{% capture mark %}{% include shakespeare.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
