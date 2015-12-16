@@ -1,3 +1,4 @@
 TODO
 
 create landing page (/renaissance) with more stylish links to each catagory
+create jekyll code to load all images for each page
