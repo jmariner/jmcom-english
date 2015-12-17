@@ -1,7 +1,4 @@
 TODO
 
-create landing page (/renaissance) with more stylish links to each catagory
-
-create jekyll code to load all images for each page
-
+finish stylish homepage
 each picture (and maybe heading?) can be clicked to show its source (and a button to go to it)
