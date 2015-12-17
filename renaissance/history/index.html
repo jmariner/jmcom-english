@@ -4,7 +4,11 @@ title: Renaissance - History
 location: ren-history
 ---
 <main>
-	<div class="images"></div>
+	<div class="images">
+		{% directory path: assets/img/history %}
+			<img src="{{ file.url }}">
+		{% enddirectory %}
+	</div>
 	<div class="md">
 		{% capture mark %}{% include history.md %}{% endcapture %}
 		{{ mark | markdownify }}

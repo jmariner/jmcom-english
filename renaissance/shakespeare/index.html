@@ -4,7 +4,11 @@ title: Renaissance - Shakespeare
 location: ren-shakespeare
 ---
 <main>
-	<div class="images"></div>
+	<div class="images">
+		{% directory path: assets/img/shakespeare %}
+			<img src="{{ file.url }}">
+		{% enddirectory %}
+	</div>
 	<div class="md numbered-h2">
 		{% capture mark %}{% include shakespeare.md %}{% endcapture %}
 		{{ mark | markdownify }}

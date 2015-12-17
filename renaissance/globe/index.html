@@ -4,7 +4,11 @@ title: Renaissance - The Globe
 location: ren-globe
 ---
 <main>
-	<div class="images"></div>
+	<div class="images">
+		{% directory path: assets/img/globe %}
+			<img src="{{ file.url }}">
+		{% enddirectory %}
+	</div>
 	<div class="md numbered-h2">
 		{% capture mark %}{% include globe.md %}{% endcapture %}
 		{{ mark | markdownify }}
