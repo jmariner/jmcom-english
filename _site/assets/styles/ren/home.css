@@ -1,0 +1,37 @@
+header {
+	width: 100vw;
+	height: 40vh;
+	padding: 32px;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+main div {
+	width: 50vw;
+	height: 40vh;
+	padding: 32px;
+}
+
+main div.sources {
+	width: 100vw;
+	height: 20vh;
+}
+
+a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	color: rgb(169, 144, 90);
+}
+
+a:hover {
+	background-color: rgba(255,255,255,0.3);
+}
