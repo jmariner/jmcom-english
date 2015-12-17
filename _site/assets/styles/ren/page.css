@@ -39,31 +39,92 @@ nav {
 	display: flex;
 	font-size: 20px;
 	background-color: rgb(169, 144, 90);
-	height: 36px;
-	line-height: 36px;
 }
 
 nav a {
-	flex-grow: 1;
 	text-align: center;
 	color: rgb(0,0,0);
 	text-decoration: blink;
+	flex-grow: 1;
 	display: inline-block;
-	position: relative;
 }
 
-nav a.current:after {
-	content: "";
-	width: 0;
-	height: 0;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%);
-	top: 100%;
-	border-width: 16px;
-	border-color: rgb(169, 144, 90) transparent;
-	border-style: solid;
-	border-bottom: none;
+@media screen and (max-width: 1080px) { /* small screens? */
+
+	nav {
+		flex-direction: column;
+		position: fixed;
+		top: 0;
+		left: -33vw;
+		width: 33vw;
+		height: 100vh;
+		z-index: 998;
+		transition: left 0.5s ease-in;
+	}
+
+	header.navActive nav { left: 0; }
+
+	nav a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#openNav, #closeNav {
+		cursor: pointer;
+		top: 8px;
+		left: 8px;
+	}
+
+	#openNav {
+		width: 48px;
+		z-index: 999;
+		position: fixed;
+		color: rgb(169, 144, 90);
+		transition: left 0.5s ease-in, opacity 0.5s ease-in;
+	}
+
+	header.navActive #openNav {
+		left: calc(33vw + 8px);
+		opacity: 0;
+	}
+
+	#closeNav {
+		position: absolute;
+	}
+
+	header .material-icons { font-size: 48px; }
+
+
+}
+
+@media screen and (min-width: 1080px) { /*large-enough screen*/
+
+	nav {
+		height: 36px;
+		line-height: 36px;
+	}
+
+	nav a {
+		position: relative;
+	}
+
+	nav a.current:after {
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+		top: 100%;
+		border-width: 16px;
+		border-color: rgb(169, 144, 90) transparent;
+		border-style: solid;
+		border-bottom: none;
+	}
+
+	#openNav, #closeNav { display: none; }
+
 }
 
 nav a:hover {
@@ -80,11 +141,19 @@ main {
 }
 
 main .images {
-	width: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 20%;
+}
+
+main .images img {
+	width: 80%;
 }
 
 main .md {
-	width: 85%;
+	width: 80%;
 	counter-reset: headerlist;
 	padding-right: 64px;
 }
@@ -116,4 +185,4 @@ main .md.numbered-h2 p {
 	margin-left: 40px;
 }
 
-.md h2, .md p { font-size: 20px; }
+.md h2, .md p, .md li { font-size: 20px; }
