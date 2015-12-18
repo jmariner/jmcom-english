@@ -3,5 +3,7 @@ TODO
 homepage:
 	get more pictures
 	make hover animation that shows a summary of the category
+		animation plan: title fades away, desc fades in. use js?
+		OR just slide the title up and position the desc 100% below it
 	
 each picture (and maybe heading?) can be clicked to show its source (and a button to go to it)

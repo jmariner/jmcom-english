@@ -109,7 +109,7 @@ nav a {
 		position: relative;
 	}
 
-	nav a.current:after {
+	nav a.current:before {
 		content: "";
 		width: 0;
 		height: 0;
@@ -119,6 +119,20 @@ nav a {
 		top: 100%;
 		border-width: 16px;
 		border-color: rgb(169, 144, 90) transparent;
+		border-style: solid;
+		border-bottom: none;
+	}
+
+	nav a.current:hover:after {
+		content: "";
+		width: 0;
+		height: 0;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+		top: 100%;
+		border-width: 16px;
+		border-color: rgba(255, 255, 255, 0.3) transparent;
 		border-style: solid;
 		border-bottom: none;
 	}
