@@ -1,4 +1,7 @@
 TODO
 
-finish stylish homepage
+homepage:
+	get more pictures
+	make hover animation that shows a summary of the category
+	
 each picture (and maybe heading?) can be clicked to show its source (and a button to go to it)

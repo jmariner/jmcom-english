@@ -169,6 +169,10 @@ main .md h2 {
 	margin: 32px 0 8px 0;
 }
 
+main .md h3 {
+	margin: 16px 0 8px 0;
+}
+
 main .md.numbered-h2 h2 {
 	margin-left: 40px;
 	position: relative;

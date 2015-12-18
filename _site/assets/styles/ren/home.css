@@ -1,7 +1,38 @@
+body {
+	color: rgb(169, 144, 90);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(169, 144, 90);
+}
+
+@media screen and (orientation: portrait) {
+	header { height: 20vh; }
+}
+
+@media screen and (orientation: landscape) {
+	header { height: 40vh; }
+}
+
 header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 	width: 100vw;
-	height: 40vh;
 	padding: 32px;
+}
+
+header .title {
+	width: 100%;
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+header .name {
+	font-size: 50px;
 }
 
 main {
@@ -10,10 +41,22 @@ main {
 	flex-wrap: wrap;
 }
 
-main div {
-	width: 50vw;
-	height: 40vh;
-	padding: 32px;
+@media screen and (max-device-width: 1080px) {
+	main div.outer {
+		width: 100vw;
+		height: 25vh;
+	}
+}
+
+@media screen and (min-device-width: 1080px) {
+	main div.outer {
+		width: 50vw;
+		height: 40vh;
+	}
+}
+
+main div.outer {
+	padding: 16px;
 }
 
 main div.sources {
@@ -21,17 +64,39 @@ main div.sources {
 	height: 20vh;
 }
 
-a {
-	width: 100%;
-	height: 100%;
-	text-decoration: none;
+main a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 48px;
-	color: rgb(169, 144, 90);
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: ridge 15px rgb(193, 149, 38);
 }
 
-a:hover {
-	background-color: rgba(255,255,255,0.3);
+main a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+
+main div.inner {
+	font-size: 48px;
+	padding: 16px;
+	background-color: rgba(0,0,0,0.9);
+	color: rgb(233, 189, 78);
+	z-index: 10;
+	transition: height 1s ease, width 1s ease;
+	max-width: 50%;
+}
+
+main a:hover div.inner p { display: inline-block; }
+
+main div.inner span { font-size: 48px; }
+main div.inner p {
+	display: none;
+	font-size: 20px;
 }
