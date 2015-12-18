@@ -146,8 +146,8 @@ nav a:hover {
 }
 
 main {
-	margin: 16px 0 65px 0;
-	padding-bottom: 32px;
+	margin: 16px 0 64px 0;
+	padding-bottom: 64px;
 	width: 90%;
 	min-height: 75vh;
 	background: url("/assets/img/scroll_background.jpg");
@@ -193,6 +193,11 @@ main .md {
 	padding-right: 64px;
 }
 
+main .md strong {
+	font-style: normal;
+	text-decoration: underline;
+}
+
 main .md h1 {
 	font-size: 40px;
 	text-align: center;
@@ -200,30 +205,36 @@ main .md h1 {
 	text-decoration: underline;
 }
 
-main .md h2 {
+main .md.h2 h2, main .md.h3 h3  {
 	margin: 32px 0 8px 0;
 }
 
-main .md h3 {
-	margin: 16px 0 8px 0;
+main .md.h3 h2 {
+	font-size: 24px;
+	margin: 32px 0 32px 0;
+	counter-reset: headerlist;
 }
 
-main .md.numbered-h2 h2 {
+main .md.numbered ol, main .md.numbered ul {
+	margin-left: calc(40px + 2em);
+}
+
+main .md.numbered.h2 h2, main .md.numbered.h3 h3 {
 	margin-left: 40px;
 	position: relative;
 }
 
-main .md.numbered-h2 h2:before {
+main .md.numbered.h2 h2:before, main .md.numbered.h3 h3:before {
 	content: counter(headerlist) ". ";
 	counter-increment: headerlist;
 	position: absolute;
 	left: -40px;
 }
 
-main .md.numbered-h2 p {
+main .md.numbered p {
 	margin-left: 40px;
 }
 
-main .md ul { margin-left: 2em; }
+main .md ul, main .md ol { margin-left: 2em; }
 
-.md h2, .md p, .md li { font-size: 20px; }
+.md h2, .md h3, .md p, .md li  { font-size: 20px; }

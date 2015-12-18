@@ -9,7 +9,7 @@ location: ren-shakespeare
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
-	<div class="md numbered-h2">
+	<div class="md numbered h2">
 		{% capture mark %}{% include shakespeare.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>

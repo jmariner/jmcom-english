@@ -9,7 +9,7 @@ location: ren-history
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
-	<div class="md">
+	<div class="md h2">
 		{% capture mark %}{% include history.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
