@@ -59,7 +59,7 @@ main div.outer {
 	padding: 16px;
 }
 
-main > div:last-child {
+main div.outer:last-child {
 	width: 100vw;
 	height: 20vh;
 }
@@ -92,25 +92,37 @@ main .inner {
 }
 
 main .outer.hover .inner {
+	position: absolute;
+	top: 0;
 	height: 200%;
-	transition: margin-top .25s ease;
+	transition: top .3s ease;
 }
 
 main .outer.hover a:hover .inner {
-	margin-top: -50%;
+	top: -100%;
 }
 
 main .inner div {
 	display: inline-block;
+	position: absolute;
+	left: 50%;
 	padding: 16px;
 	background-color: rgba(0,0,0,0.9);
 	color: rgb(233, 189, 78);
 }
 
 main .inner .title {
+	top: 25%;
+	transform: translate(-50%, -50%);
 	font-size: 48px;
 }
 
 main .inner .desc {
+	bottom: 25%;
+	transform: translate(-50%, 50%);
 	font-size: 20px;
+}
+
+main div.outer:not(:last-child) .inner .desc {
+	min-width: 75%;
 }
