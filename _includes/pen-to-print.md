@@ -13,7 +13,7 @@ Shakespeare made nothing from the printed scripts.
 ### How did we come up with the terms upper and lower case?
 In the Type Case of a printing press, the capital letters were stored in the upper part of the case and the normal ones in the lower part of the case.
 
-### How many pages could they print an hour?
+### How many pages could they print in an hour?
 Generally, 200 pages could be printed in an hour.
 
 ### What happened when they underestimated the text?

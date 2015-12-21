@@ -71,6 +71,7 @@ nav a {
 	}
 
 	#openNav, #closeNav {
+		position: absolute;
 		cursor: pointer;
 		top: 8px;
 		left: 8px;
@@ -79,7 +80,7 @@ nav a {
 	#openNav {
 		width: 48px;
 		z-index: 999;
-		position: fixed;
+		position: absolute;
 		color: rgb(169, 144, 90);
 		transition: left 0.25s ease-in, opacity 0.25s ease-in;
 	}
@@ -171,7 +172,7 @@ main {
 
 	main .md { width: 80%; }
 
-	main .md h1:first-child {
+	main:not(.no-images) .md h1:first-child {
 		margin-left: -20%;
 	}
 
@@ -186,6 +187,11 @@ main {
 		margin-left: 10%;
 	}
 
+}
+
+main.no-images .md {
+	width: 100%;
+	margin-left: 10%;
 }
 
 main .md {
@@ -215,7 +221,7 @@ main .md.h2 h2, main .md.h3 h3  {
 }
 
 main .md.h3 h2 {
-	font-size: 24px;
+	font-size: 30px;
 	margin: 32px 0 32px 0;
 	counter-reset: headerlist;
 }
@@ -243,3 +249,23 @@ main .md.numbered p {
 main .md ul, main .md ol { margin-left: 2em; }
 
 .md h2, .md h3, .md p, .md li  { font-size: 20px; }
+
+body[data-location='ren-sources'] main .md { overflow: hidden; }
+
+body[data-location='ren-sources'] main .md li {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.heading-link {
+	font-size: 16px;
+	color: inherit;
+	text-decoration: none !important;
+	margin-left: 0.5em;
+	display: none;
+}
+
+h2:hover .heading-link, h3:hover .heading-link {
+	display: inline;
+}
