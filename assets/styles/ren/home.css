@@ -59,7 +59,7 @@ main div.outer {
 	padding: 16px;
 }
 
-main div.sources {
+main > div:last-child {
 	width: 100vw;
 	height: 20vh;
 }

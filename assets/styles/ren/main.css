@@ -14,3 +14,7 @@ body {
 	/* TODO fix scrollbar appearing when nothing to scroll*/
 	overflow-x: hidden; 
 }
+
+.hidden {
+	display: none;
+}

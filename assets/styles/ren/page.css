@@ -198,6 +198,10 @@ main .md strong {
 	text-decoration: underline;
 }
 
+main .md.h2 h2 strong, main .md.h3 h3 strong {
+	color: initial;
+}
+
 main .md h1 {
 	font-size: 40px;
 	text-align: center;
@@ -207,6 +211,7 @@ main .md h1 {
 
 main .md.h2 h2, main .md.h3 h3  {
 	margin: 32px 0 8px 0;
+	color: rgb(3, 93, 3);
 }
 
 main .md.h3 h2 {
