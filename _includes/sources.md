@@ -40,3 +40,26 @@
 - <https://upload.wikimedia.org/wikipedia/commons/8/8c/Title_page_William_Shakespeare's_First_Folio_1623.jpg>
 - <https://s-media-cache-ak0.pinimg.com/736x/b9/89/ce/b989ce9ef1d64a19752c5060da8a9b70.jpg>
 - <http://www.amaranthpublishing.com/imprim2.jpg>
+
+## __Articles__
+
+### History
+- <http://www.learner.org/interactives/renaissance/>
+- <http://www.uh.edu/~djudkins/life_in_renaissance_england.htm>
+- <http://elizabethan.org/index.html>
+- <http://www.royal.gov.uk/HistoryoftheMonarchy/KingsandQueensofEngland/TheTudors/TheTudors.aspx>
+
+### Shakespeare
+- <http://www.bardweb.net/man.html>
+
+### The Globe
+- <http://www.bardweb.net/globe.html>
+- <http://www.william-shakespeare.info/william-shakespeare-biography-elizabethan-theatre-playhouse-inn-yards.htm>
+
+### Hamlet
+- <http://www.shakespeare-online.com/sources/hamletsources.html>
+- <http://www.shakespeare-online.com/plays/hamlet/hamletintroduction.html>
+
+### Pen to Print
+- ~~https://games.ciconline.org/shakespeare/default.aspx~~
+- <http://www.cableplays.org/shakespeare/>
