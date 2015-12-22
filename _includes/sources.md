@@ -1,6 +1,6 @@
 # Works Cited
 
-## __Pictures__
+## _Pictures_
 
 ### Background / Homepage
 - <http://www.masterartstudio.com/wp-content/uploads/2013/03/antique-scroll-background-2-1.jpg>
@@ -41,7 +41,7 @@
 - <https://s-media-cache-ak0.pinimg.com/736x/b9/89/ce/b989ce9ef1d64a19752c5060da8a9b70.jpg>
 - <http://www.amaranthpublishing.com/imprim2.jpg>
 
-## __Articles__
+## _Articles_
 
 ### History
 - <http://www.learner.org/interactives/renaissance/>

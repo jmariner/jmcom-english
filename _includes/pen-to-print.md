@@ -1,6 +1,6 @@
 # Pen to Print
 
-## __The Printing Process__
+## _The Printing Process_
 
 ### When were Shakespeare’s plays usually printed?
 Shakespeare's plays were printed once the company no longer wanted to perform them.
@@ -8,7 +8,7 @@ Shakespeare's plays were printed once the company no longer wanted to perform th
 ### How much money did Shakespeare make off of the printed scripts?
 Shakespeare made nothing from the printed scripts.
 
-### An experienced printer “__casts off__” the book. “__casting off__” is estimating how many pages will be in the book and determining how much of the handwritten text will fit on the page.
+### An experienced printer “_casts off_” the book. “_casting off_” is estimating how many pages will be in the book and determining how much of the handwritten text will fit on the page.
 
 ### How did we come up with the terms upper and lower case?
 In the Type Case of a printing press, the capital letters were stored in the upper part of the case and the normal ones in the lower part of the case.
@@ -23,9 +23,9 @@ When the examiner underestimates the text, there will not be enough text to fill
 When the examiner overestimates the text, there would be too much text to fit on one page. To fix this, lines of verse were turned into prose or sometimes entire lines were simply removed.
 
 
-## __Shakespeare’s Language__
+## _Shakespeare’s Language_
 
-### Shakespeare’s vocabulary included over __27870__ words. The average person today uses between __7500__ and __10000__ words.
+### Shakespeare’s vocabulary included over _27870_ words. The average person today uses between _7500_ and _10000_ words.
 
 ### List as many of Shakespeare’s made up words as you can:
 advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, xantippe, shooting star
@@ -38,7 +38,7 @@ advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, xantippe,
 “What’s done is done”		“Dead as a doornail”
 
 
-## __The Writing Process__
+## _The Writing Process_
 
 ### Describe in your own words the process a script went through from Shakespeare’s writing it down the production of the play.
 1. Play registered

@@ -199,15 +199,6 @@ main .md {
 	padding-right: 64px;
 }
 
-main .md strong {
-	font-style: normal;
-	text-decoration: underline;
-}
-
-main .md.h2 h2 strong, main .md.h3 h3 strong {
-	color: initial;
-}
-
 main .md h1 {
 	font-size: 40px;
 	text-align: center;
@@ -225,6 +216,8 @@ main .md.h3 h2 {
 	margin: 32px 0 32px 0;
 	counter-reset: headerlist;
 }
+
+main .md.h3 h3 > u, main .md.h2 h2 > u { color: initial; }
 
 main .md.numbered ol, main .md.numbered ul {
 	margin-left: calc(40px + 2em);

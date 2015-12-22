@@ -36,5 +36,5 @@ The theaters were closed for many months due to a Code of Arms.
 ## What was the name of Shakespeare’s retirement home?
 After retiring, Shakespeare bought a house and deemed it “New House”.
 
-## Where is Shakespeare buried?
+## Where is Shakespeare buried? 
 Shakespeare was buried at Holy Trinity in Stratford.
