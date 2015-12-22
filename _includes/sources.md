@@ -41,6 +41,11 @@
 - <https://s-media-cache-ak0.pinimg.com/736x/b9/89/ce/b989ce9ef1d64a19752c5060da8a9b70.jpg>
 - <http://www.amaranthpublishing.com/imprim2.jpg>
 
+### Trivia
+- <http://elizabethan.org/compendium/art/chess.gif>
+- <http://elizabethan.org/compendium/art/baby.jpg>
+- <http://elizabethan.org/compendium/art/schooboy-sm.jpg>
+
 ## _Articles_
 
 ### History
@@ -63,3 +68,6 @@
 ### Pen to Print
 - ~~https://games.ciconline.org/shakespeare/default.aspx~~
 - <http://www.cableplays.org/shakespeare/>
+
+### Trivia
+- <http://elizabethan.org/compendium/>

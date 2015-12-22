@@ -217,6 +217,10 @@ main .md.h3 h2 {
 	counter-reset: headerlist;
 }
 
+main .md.h3.subgreen h2 {
+	color: rgb(3, 93, 3);
+}
+
 main .md.h3 h3 > u, main .md.h2 h2 > u { color: initial; }
 
 main .md.numbered ol, main .md.numbered ul {
@@ -239,7 +243,7 @@ main .md.numbered p {
 	margin-left: 40px;
 }
 
-main .md ul, main .md ol { margin-left: 2em; }
+main .md ul, main .md ol {margin-left: 2em;}
 
 .md h2, .md h3, .md p, .md li  { font-size: 20px; }
 

@@ -47,6 +47,11 @@ main {
 	main div.outer {
 		width: 100vw;
 		height: 25vh;
+		min-height: 200px;
+	}
+
+	main div.outer:last-child {
+		min-height: 150px;
 	}
 }
 
@@ -54,6 +59,11 @@ main {
 	main div.outer {
 		width: 50vw;
 		height: 40vh;
+		min-height: 300px;
+	}
+
+	main div.outer:last-child {
+		min-height: 175px;
 	}
 }
 
@@ -102,12 +112,16 @@ main .outer.hover .inner {
 	transition: top .3s .25s ease;
 }
 
-main .outer.hover a:hover {
-	/* todo lighten/darken border of a element on hover */
-}
+@media screen and (min-width: 1080px) {
 
-main .outer.hover a:hover .inner {
-	top: -100%;
+	main .outer.hover a:hover {
+		border-color: rgb(223, 179, 78);
+	}
+
+	main .outer.hover a:hover .inner {
+		top: -100%;
+	}
+
 }
 
 main .inner div {
@@ -123,6 +137,7 @@ main .inner .title {
 	top: 25%;
 	transform: translate(-50%, -50%);
 	font-size: 48px;
+	white-space: nowrap;
 }
 
 main .inner .desc {
