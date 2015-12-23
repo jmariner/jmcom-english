@@ -124,6 +124,16 @@ main .outer.hover .inner {
 
 }
 
+@media screen and (max-width: 1080px) {
+	main .outer.hover a.tapped {
+		border-color: rgb(223, 179, 78);		
+	}
+
+	main .outer.hover a.tapped .inner {
+		top: -100%;
+	}
+}
+
 main .inner div {
 	display: inline-block;
 	position: absolute;
