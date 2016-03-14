@@ -31,7 +31,7 @@ The Shakespeare family crest is a coat of arms.
 Once King James took over, Shakespeare's acting group was renamed to the "King's Men".
 
 ## Why were the theaters closed for many months?
-The theaters were closed for many months due to a Code of Arms.
+The theaters were closed for many months due to the plague.
 
 ## What was the name of Shakespeare’s retirement home?
 After retiring, Shakespeare bought a house and deemed it “New House”.

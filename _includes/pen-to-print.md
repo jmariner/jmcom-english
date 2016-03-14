@@ -1,34 +1,34 @@
 # Pen to Print
 
-## __The Printing Process__
+## _The Printing Process_
 
 ### When were Shakespeare’s plays usually printed?
-After the production company would no longer perform them.
+Shakespeare's plays were printed once the company no longer wanted to perform them.
 
 ### How much money did Shakespeare make off of the printed scripts?
-None
+Shakespeare made nothing from the printed scripts.
 
-### An experienced printer “__casts off__” the book. “__casting off__” is estimating how many pages will be in the book and determining how much of the handwritten text will fit on the page.
+### An experienced printer “_casts off_” the book. “_casting off_” is estimating how many pages will be in the book and determining how much of the handwritten text will fit on the page.
 
 ### How did we come up with the terms upper and lower case?
-Uppercase letters were stored in the top compartment of the Type Case; lowercase were stored in the lower compartment
+In the Type Case of a printing press, the capital letters were stored in the upper part of the case and the normal ones in the lower part of the case.
 
-### How many pages could they print an hour?
-Around 200
+### How many pages could they print in an hour?
+Generally, 200 pages could be printed in an hour.
 
 ### What happened when they underestimated the text?
-Not enough text to fill the page – sometimes broke iambic pentameter lines in half or added their own lines to the text
+When the examiner underestimates the text, there will not be enough text to fill a page. To fix this, the printers would sometimes break iambic pentameter lines in half or add their own lines of text.
 
 ### What happened when they overestimated the text?
-Too much text to fit on a page – sometimes lines are cut completely or lines of verse were turned into prose to make it fit
+When the examiner overestimates the text, there would be too much text to fit on one page. To fix this, lines of verse were turned into prose or sometimes entire lines were simply removed.
 
 
-## __Shakespeare’s Language__
+## _Shakespeare’s Language_
 
-### Shakespeare’s vocabulary included over __27870__ words. The average person today uses between __7500__ and __10000__ words.
+### Shakespeare’s vocabulary included over _27870_ words. The average person today uses between _7500_ and _10000_ words.
 
 ### List as many of Shakespeare’s made up words as you can:
-Advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, Xantippe, shooting star
+advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, xantippe, shooting star
 
 ### List some of Shakespeare’s common expressions:
 “For goodness’ sake!”		“What the dickens”
@@ -38,7 +38,7 @@ Advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, Xantippe,
 “What’s done is done”		“Dead as a doornail”
 
 
-## __The Writing Process__
+## _The Writing Process_
 
 ### Describe in your own words the process a script went through from Shakespeare’s writing it down the production of the play.
 1. Play registered
@@ -49,15 +49,15 @@ Advertising, bedroom, cold-blooded, jig, manager, numb, obscene, zany, Xantippe,
 6. When bored of performing, play is printed
 
 ### When was Hamlet officially registered?
-September 27, 1602
+Hamlet was registered on September 27, 1602.
 
 ### What are the Foul Papers?
-Handwritten sheets – difficult to read
+Foul papers are the handwritten versions of the scripts and were understandably difficult to read.
 
 ### What is a fair copy?
-After a scribe copies the Foul Papers – slightly easier to read
+Fair copy is the final product after a scribe copies the Foul Papers into a format that is slightly easier to read.
 
 ### What is the difference between Quarto I, Quarto II, and the First Folio Edition?
-Quarto I: 		first (unauthorized) copy of Hamlet printed
-Quarto II: 		second (this time legit) copy printed
-First Folio: 	after Shakespeare died; different from both I and II
+Quarto I: first (unauthorized) copy of Hamlet printed
+Quarto II: second (this time legit) copy printed
+First Folio: after Shakespeare died; different from both I and II

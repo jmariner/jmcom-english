@@ -1,7 +1,7 @@
 # Hamlet
 
 ## What is the origin of the play?
-Hamlet was based on a 1200 AD Norse legend written by Saxo Grammaticus. The legend telling the tale of Amleth, Saxo's version of Shakespeare's Hamlet, went like this:
+*Hamlet* was based on a 1200 AD Norse legend written by Saxo Grammaticus. The legend telling the tale of Amleth, Saxo's version of Shakespeare's Hamlet, went like this:
 King Rorik of the Danes gave his two brothers, Orvendil and Fengi, control over an area called Jutland. Amleth was the son of the King's brother, Orvendil, and the King's daughter, Geruth. Fengi, lusting for Geruth and wanting full control over Jutland, killed Orvendil, married Geruth, and took his reign over Jutland. Amleth, in an effort to stay alive, feigns insanity as he plans revenge on his uncle, Fengi. Eventually, Amleth becomes the sole King of Jutland.
 
 ## What kinds of events in a person’s life can cause overwhelming feelings of grief?

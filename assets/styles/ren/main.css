@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0;box-sizing: border-box;}
+* {margin: 0;padding: 0;box-sizing: border-box;}
 html {
 	width: 100vw;
 	min-height: 100vh;
@@ -11,6 +11,9 @@ body {
 	min-height: 100vh;
 	font: 14px 'Roboto', sans-serif;
 	background: rgb(58, 9, 9);
-	/* TODO fix scrollbar appearing when nothing to scroll*/
-	overflow-x: hidden; 
+	overflow-x: hidden;
+}
+
+.hidden {
+	display: none;
 }
