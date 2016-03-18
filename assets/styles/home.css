@@ -13,6 +13,10 @@ body {
 	color: rgb(226, 226, 226);
 	background-color: rgb(53, 53, 53);
 }
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
 
 .hidden { display: none; }
 
@@ -49,7 +53,6 @@ header .name {
 }
 
 main {
-	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -59,9 +62,49 @@ main .outer {
 }
 
 main .outer a {
+	display: flex;
+	position: relative;
+	overflow: hidden;
 	border: ridge rgb(80,0,0) 15px;
 	width: 100%;
 	height: 100%;
+}
+
+main .outer a:hover {
+	border-color: rgb(100,0,0);
+}
+
+main .outer a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+
+main .inner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	z-index: 10;
+}
+
+main .inner div {
 	display: inline-block;
-	color: white;
+	padding: 16px;
+	background-color: rgba(0,0,0,0.9);
+}
+
+main .inner .title {
+	font-size: 48px;
+}
+
+main .inner .desc {
+	text-align: center;
+	font-size: 24px;
+	max-width: 75%;
 }
