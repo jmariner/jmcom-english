@@ -5,12 +5,12 @@ location: ren-trivia
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/trivia %}
+		{% directory path: assets/img/ren/trivia %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
 	<div class="md h3">
-		{% capture mark %}{% include trivia.md %}{% endcapture %}
+		{% capture mark %}{% include ren/trivia.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>

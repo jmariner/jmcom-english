@@ -5,12 +5,12 @@ location: ren-globe
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/globe %}
+		{% directory path: assets/img/ren/globe %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
 	<div class="md numbered h2">
-		{% capture mark %}{% include globe.md %}{% endcapture %}
+		{% capture mark %}{% include ren/globe.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>

@@ -5,12 +5,12 @@ location: ren-hamlet
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/hamlet %}
+		{% directory path: assets/img/ren/hamlet %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
 	<div class="md numbered h2">
-		{% capture mark %}{% include hamlet.md %}{% endcapture %}
+		{% capture mark %}{% include ren/hamlet.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>

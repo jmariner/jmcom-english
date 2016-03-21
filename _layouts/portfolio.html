@@ -1,0 +1,32 @@
+---
+layout: plain
+style2: portfolio/main
+style3: portfolio/page
+---
+<script>
+	$(function() {
+		$("iframe.autofit").height(function() {
+			return $(this).width() * (11/8.5);
+		})
+	})
+</script>
+<header>
+	<div class="titlebar">
+		<div class="title"><a href="/portfolio">Checkmate! - My Senior Portfolio</a></div>
+		<div class="name">Justin Mariner</div>
+	</div>
+	<i id="openNav"class="menu material-icons">menu</i>
+	<nav>
+		<a id="closeNav"><i class="close material-icons">close</i></a>
+		<a class="home" href="/portfolio">Home</a>
+		<a class="metaphor_poem" href="/portfolio/metaphor_poem">Metaphor Poem</a>
+		<a class="9th_grade" href="/portfolio/9th_grade">9th Grade</a>
+		<a class="10th_grade" href="/portfolio/10th_grade">10th Grade</a>
+		<a class="11th_grade" href="/portfolio/11th_grade">11th Grade</a>
+		<a class="12th_grade" href="/portfolio/12th_grade">12th Grade</a>
+		<a class="college_essay" href="/portfolio/college_essay">College Essay</a>
+		<a class="resume" href="/portfolio/resume">Résumé</a>
+		<a class="whats_next" href="/portfolio/whats_next">What's Next</a>
+	</nav>
+</header>
+{{ content }}

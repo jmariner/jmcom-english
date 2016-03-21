@@ -1,0 +1,16 @@
+---
+layout: portfolio
+title: Senior Portfolio - College Essay
+location: portfolio-home
+---
+<main>
+	<div class="images">
+		{% directory path: assets/img/portfolio/college_essay %}
+			<img src="{{ file.url }}">
+		{% enddirectory %}
+	</div>
+	<div class="md">
+		{% capture mark %}{% include portfolio/college_essay.md %}{% endcapture %}
+		{{ mark | markdownify }}
+	</div>
+</main>

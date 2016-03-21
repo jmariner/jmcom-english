@@ -5,12 +5,12 @@ location: ren-shakespeare
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/shakespeare %}
+		{% directory path: assets/img/ren/shakespeare %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
 	<div class="md numbered h2">
-		{% capture mark %}{% include shakespeare.md %}{% endcapture %}
+		{% capture mark %}{% include ren/shakespeare.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>

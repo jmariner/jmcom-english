@@ -5,11 +5,11 @@ location: ren-pen-to-print
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/pen-to-print %}
+		{% directory path: assets/img/ren/pen-to-print %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>	<div class="md numbered h3">
-		{% capture mark %}{% include pen-to-print.md %}{% endcapture %}
+		{% capture mark %}{% include ren/pen-to-print.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>

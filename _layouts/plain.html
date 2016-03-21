@@ -11,7 +11,7 @@
 		{% if page.style2 %}<link rel="stylesheet" href="/assets/styles/{{ page.style2 }}.css">{% endif %}
 		{% if page.style3 %}<link rel="stylesheet" href="/assets/styles/{{ page.style3 }}.css">{% endif %}
 		<link rel="stylesheet" href="/assets/styles/main.css">
-		<link rel="stylesheet" href="/assets/styles/scroll.css">
+		{% if page.scrollStyle %}<link rel="stylesheet" href="/assets/styles/{{ page.scrollStyle }}.css">{% endif %}
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/5.0.2/markdown-it.min.js"></script>
 		<script src="/assets/js/style.js"></script>

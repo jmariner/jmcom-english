@@ -1,0 +1,16 @@
+---
+layout: portfolio
+title: Senior Portfolio - Résumé
+location: portfolio-home
+---
+<main>
+	<div class="images">
+		{% directory path: assets/img/portfolio/resume %}
+			<img src="{{ file.url }}">
+		{% enddirectory %}
+	</div>
+	<div class="md">
+		{% capture mark %}{% include portfolio/resume.md %}{% endcapture %}
+		{{ mark | markdownify }}
+	</div>
+</main>

@@ -5,12 +5,12 @@ location: ren-history
 ---
 <main>
 	<div class="images">
-		{% directory path: assets/img/history %}
+		{% directory path: assets/img/ren/history %}
 			<img src="{{ file.url }}">
 		{% enddirectory %}
 	</div>
 	<div class="md h3 subgreen">
-		{% capture mark %}{% include history.md %}{% endcapture %}
+		{% capture mark %}{% include ren/history.md %}{% endcapture %}
 		{{ mark | markdownify }}
 	</div>
 </main>
