@@ -14,7 +14,10 @@
 		{% if page.scrollStyle %}<link rel="stylesheet" href="/assets/styles/{{ page.scrollStyle }}.css">{% endif %}
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/5.0.2/markdown-it.min.js"></script>
-		<script src="/assets/js/style.js"></script>
+		{% if page.script1 %}<script src="/assets/js/{{ page.script1 }}.js"></script>{% endif %}
+		{% if page.script2 %}<script src="/assets/js/{{ page.script2 }}.js"></script>{% endif %}
+		{% if page.script3 %}<script src="/assets/js/{{ page.script3 }}.js"></script>{% endif %}
+
 	</head>
 	<body data-location="{{ page.location }}">
 		{{ content }}

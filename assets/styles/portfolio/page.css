@@ -119,7 +119,7 @@ nav a {
 		transform: translate(-50%);
 		top: 100%;
 		border-width: 16px;
-		border-color: rgb(169, 144, 90) transparent;
+		border-color: rgb(202, 149, 1) transparent;
 		border-style: solid;
 		border-bottom: none;
 	}
@@ -151,8 +151,10 @@ main {
 	padding-bottom: 64px;
 	width: 90%;
 	min-height: 75vh;
-	/*background: url("/assets/img/scroll_background.jpg");
-	background-size: 101% 100%;*/
+	background: url("/assets/img/carbon_fiber_background.jpg");
+	background-repeat: repeat;
+	background-size: 5%;
+	border: 5px solid rgb(202, 149, 1);
 }
 
 @media screen and (min-width: 1080px) { /*large-enough screen*/
@@ -162,18 +164,18 @@ main {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
-		width: 20%;
+		width: 25%;
 		margin-top: 112px;
 	}
 
-	main .images img {
-		width: auto;
-		height: auto;
-		max-width: 100%;
-		max-height: 100%;
+	main .images .img {
+		width: 100%;
+		text-align: center;
 	}
 
-	main .md { width: 80%; }
+	main .images .img img { width: 80%; }
+
+	main .md { width: 75%; }
 
 	main:not(.no-images) .md h1:first-child {
 		margin-left: -20%;
@@ -192,7 +194,15 @@ main {
 
 }
 
-main iframe.autofit { width: 100%; }
+main iframe.document {
+	width: 100%;
+	border: none;
+}
+
+main.no-images .md {
+	width: 100%;
+	margin-left: 10%;
+}
 
 main .md {
 	color: rgb(202, 149, 1);
@@ -203,4 +213,35 @@ main .md h1 {
 	text-align: center;
 	margin: 32px 0;
 	text-decoration: underline;
+}
+
+main .md.h2 h2, main .md.h3 h3  {
+	margin: 32px 0 8px 0;
+	color: rgb(202, 149, 1);
+}
+
+main .md.h3 h2 {
+	font-size: 30px;
+	margin: 32px 0 32px 0;
+	counter-reset: headerlist;
+}
+
+body[data-location$='-sources'] main .md { overflow: hidden; }
+
+body[data-location$='-sources'] main .md li {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.heading-link {
+	font-size: 16px;
+	color: inherit;
+	text-decoration: none !important;
+	margin-left: 0.5em;
+	display: none;
+}
+
+h2:hover .heading-link, h3:hover .heading-link {
+	display: inline;
 }

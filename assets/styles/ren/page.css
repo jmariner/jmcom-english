@@ -166,9 +166,12 @@ main {
 		margin-top: 112px;
 	}
 
-	main .images img {
-		width: 80%;
+	main .images .img {
+		width: 100%;
+		text-align: center;
 	}
+	
+	main .images img { width: 80%; }
 
 	main .md { width: 80%; }
 
