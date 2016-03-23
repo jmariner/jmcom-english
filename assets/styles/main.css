@@ -1,4 +1,8 @@
-* {margin: 0;padding: 0;box-sizing: border-box;}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 html {
 	width: 100vw;
 	min-height: 100vh;
@@ -13,6 +17,21 @@ body {
 	overflow-x: hidden;
 }
 
-.hidden {
-	display: none;
+footer {
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+	height: 7.5vh;
+	width: 100%;
 }
+
+footer > div {
+	padding: 8px 16px;
+	width: 33%;
+}
+
+footer .left   { text-align: left; }
+footer .center { text-align: center; }
+footer .right  { text-align: right; }
+
+.hidden { display: none; }

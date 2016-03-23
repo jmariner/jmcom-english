@@ -2,7 +2,7 @@ body {
 	color: rgb(169, 144, 90);
 }
 
-a {
+header a, main a {
 	text-decoration: none;
 	color: rgb(169, 144, 90);
 }
@@ -40,6 +40,7 @@ header .name {
 main {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 5vh;
 }
 
 @media screen and (max-width: 1080px) {

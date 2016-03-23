@@ -3,3 +3,14 @@ layout: portfolio
 title: Senior Portfolio - What's Next
 location: portfolio-whats_next
 ---
+<main>
+	<div class="images">
+		{% directory path: assets/img/portfolio/whats_next %}
+			<div class="img"><img src="{{ file.url }}"></div>
+		{% enddirectory %}
+	</div>
+	<div class="md">
+		{% capture mark %}{% include portfolio/whats_next.md %}{% endcapture %}
+		{{ mark | markdownify }}
+	</div>
+</main>

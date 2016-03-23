@@ -23,4 +23,12 @@ $(function() {
 		.addClass("heading-link")
 		.attr("href","./#" + $(this).attr("id"));
 	});
+	onResize();
+	window.onresize = onResize;
 });
+
+function onResize() {
+	$("iframe.autofit").height(function() {
+		return $(this).width() * (11/8.5);
+	});
+}

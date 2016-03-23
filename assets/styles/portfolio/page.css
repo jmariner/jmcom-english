@@ -24,6 +24,7 @@ header > * { width: 100%; }
 .title {
 	font-size: 50px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .title a {
@@ -81,7 +82,7 @@ nav a {
 		width: 48px;
 		z-index: 999;
 		position: absolute;
-		color: rgb(169, 144, 90);
+		color: rgb(202, 149, 1);
 		transition: left 0.25s ease-in, opacity 0.25s ease-in;
 	}
 
@@ -189,7 +190,6 @@ main {
 
 	main .md {
 		width: 100%;
-		margin-left: 10%;
 	}
 
 }
