@@ -3,24 +3,24 @@ $(function() {
 	$("#page-container").remove();
 	$("body").append(pageCont).attr("id","page-container");
 
+	var lastPage = +$(".pf:last-child").attr("data-page-no");
 	var pageHeight = $(".h0").height();
-	$("#page-container").height(pageHeight * 2 + 100);
+	$("#page-container").height((pageHeight+50)*lastPage);
 
-	var scale = (window.innerWidth * 0.95) / $(".w0").width();
+	var widthScale = 1;
+	var scale = (window.innerWidth * widthScale) / $(".w0").width();
 	$("body").css("transform", "scale("+scale+")");
 
-	$("body").attr("cur-page", "1");
-
-	document.body.curPage = 1;
-	document.body.lastPage = +$(".pf:last-child").attr("data-page-no");
+	document.body.curPage = .95;
+	document.body.lastPage = lastPage;
 
 	$(document).keydown(function(e) {
-		if (e.which === 39) { // right - next page
-			// inc page if < lastpage
-			//document.body.scrollTop = $("body").height() * pagenum-1
-		}
-		if (e.which === 37) { // left - prev page
-			// dec page if > 1
+		if (e.which === 37 || e.which === 39) {
+			if (e.which === 39 && document.body.curPage < document.body.lastPage) // right - next page
+				document.body.curPage++;
+			if (e.which === 37 && document.body.curPage > 1) // left - prev page
+				document.body.curPage--;
+			document.body.scrollTop = $("body").height() * (document.body.curPage-1);
 		}
 	})
 });

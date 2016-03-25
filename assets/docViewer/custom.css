@@ -17,3 +17,6 @@
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+
+body .t { color: black;/*rgb(202, 149, 1);*/ }
+body .pf { background-color: rgba(255, 255, 255, 1); }
