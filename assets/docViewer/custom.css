@@ -1,0 +1,19 @@
+#sidebar {
+	display: none;
+}
+
+.pf {
+	margin: 20px 0;
+	flex-shrink: 0;
+}
+
+#page-container {
+	background: none transparent;
+	transform-origin: top center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
