@@ -245,6 +245,7 @@ body[data-location$='-sources'] main .md li {
 	visibility: hidden;
 }
 
-h2:hover .heading-link, h3:hover .heading-link {
-	visibility: visible;
-}
+h2:hover .heading-link, h3:hover .heading-link { visibility: visible; }
+
+footer .center a { padding: 0 .5em; }
+footer .center a:not(:last-child) {	border-right: solid 1px black; }

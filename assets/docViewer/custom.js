@@ -19,7 +19,13 @@ $(function() {
 	.append($("<div>").addClass("prev").text("Prev").click(prevPage))
 	.append($("<div>").addClass("next").text("Next").click(nextPage));
 
-	$(".pf").append($pageNav.clone(true).addClass("top")).append($pageNav.clone(true).addClass("bottom"));
+	$(".pf")
+	.append($pageNav.clone(true).addClass("top"))
+	.append($pageNav.clone(true).addClass("bottom"));
+
+	if (window.self !== window.top) {// if in an iframe
+		$(".pf").append($("<a>").addClass("fullscreen").text("Fullscreen").attr("href", document.location.href).attr("target", "_blank"));
+	}
 
 	$(document).keydown(function(e) {
 		if (e.which === 38 || e.which === 40) {

@@ -3,3 +3,4 @@ redcarpet:
   extensions: ["strikethrough", "underline", "with_toc_data"]
 port: 8080
 exclude: ['/ignore']
+encoding: UTF-8

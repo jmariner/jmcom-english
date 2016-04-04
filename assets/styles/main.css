@@ -25,13 +25,9 @@ footer {
 	width: 100%;
 }
 
-footer > div {
-	padding: 8px 16px;
-	width: 33%;
-}
-
-footer .left   { text-align: left; }
-footer .center { text-align: center; }
-footer .right  { text-align: right; }
+footer > div { padding: 8px 16px; } 
+footer .left   { width: 25%; text-align: left; }
+footer .center { width: 50%; text-align: center; }
+footer .right  { width: 25%; text-align: right; }
 
 .hidden { display: none; }
