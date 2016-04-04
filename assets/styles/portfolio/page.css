@@ -199,7 +199,7 @@ main {
 
 main iframe.document {
 	width: 100%;
-	border: none;
+	border: solid 0px black;
 }
 
 main.no-images .md {
@@ -241,10 +241,10 @@ body[data-location$='-sources'] main .md li {
 	font-size: 16px;
 	color: inherit;
 	text-decoration: none !important;
-	margin-left: 0.5em;
-	display: none;
+	margin-left: 0.75em;
+	visibility: hidden;
 }
 
 h2:hover .heading-link, h3:hover .heading-link {
-	display: inline;
+	visibility: visible;
 }
