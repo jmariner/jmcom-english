@@ -15,26 +15,24 @@ $(function() {
 	document.body.curPage = 1;
 	document.body.lastPage = lastPage;
 
+	var $gotoPage = $("<div>").addClass("goto-page").text("Goto Page").click(function() {
+		var p = prompt("Enter a page", 1);
+		if (+p <= document.body.lastPage && +p > 0) scrollToPage(p);
+		else alert("Invalid Page: " + p);
+	});
+
 	var $pageNav = $("<div>").addClass("page-nav")
 	.append($("<div>").addClass("prev").text("Prev").click(prevPage))
 	.append($("<div>").addClass("next").text("Next").click(nextPage));
 
 	$(".pf")
+	.append($gotoPage)
 	.append($pageNav.clone(true).addClass("top"))
 	.append($pageNav.clone(true).addClass("bottom"));
 
 	if (window.self !== window.top) {// if in an iframe
 		$(".pf").append($("<a>").addClass("fullscreen").text("Fullscreen").attr("href", document.location.href).attr("target", "_blank"));
 	}
-
-	$(document).keydown(function(e) {
-		if (e.which === 38 || e.which === 40) {
-			if (e.which === 40 && document.body.curPage < document.body.lastPage) // right - next page
-				nextPage();
-			if (e.which === 38 && document.body.curPage > 1) // left - prev page
-				prevPage();
-		}
-	});
 });
 
 function prevPage() {

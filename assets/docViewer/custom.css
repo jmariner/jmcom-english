@@ -21,59 +21,49 @@
 body .t { color: black;/*rgb(202, 149, 1);*/ }
 body .pf { background-color: rgba(255, 255, 255, 1); }
 
-.pf::before {
+.pf .goto-page, .pf .page-nav, .pf .fullscreen, .pf::before {
 	visibility: hidden;
 	position: absolute;
 	font-size: 10px;
-	top: 1em;
-	left: 1em;
-	content: "Page " attr(data-page-no) " / " attr(data-last-page);
-}
-
-body:hover .pf::before { visibility: visible; }
-
-.pf .page-nav {
-	visibility: hidden;
-	font-size: 10px;
-	position: absolute;
-	right: 1em;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 }
 
-body:hover .pf .page-nav { visibility: visible; }
+.pf .goto-page, .pf .page-nav, .pf .fullscreen { cursor: pointer; }
 
-.pf .page-nav > div {
-	cursor: pointer;
-	/* css arrow things maybe */
+body:hover .pf .goto-page, body:hover .pf .page-nav,
+body:hover .pf .fullscreen, body:hover .pf::before {
+	visibility: visible;
 }
 
+.pf:not([data-page-no='1']) .page-nav .prev:hover,
+.pf:not(:last-child) .page-nav .next:hover,
+.pf .fullscreen:hover, .pf .goto-page:hover {
+	text-decoration: underline;
+}
+
+.pf::before {
+	top: 1em;
+	left: 1em;
+	content: "Page " attr(data-page-no) " / " attr(data-last-page);
+}
+
+.pf .goto-page {
+	left: 1em;
+	top: 2.5em;
+}
+
+.pf .page-nav { right: 1em; }
 .pf .page-nav.top { top: 1em; }
 .pf .page-nav.bottom { bottom: 1em; }
-
-.pf[data-page-no='1'] .page-nav .prev, .pf:last-child  .page-nav .next {
-	color: rgb(150, 150, 150);
-	/* disabled link */
-}
-
-.pf:not([data-page-no='1']) .page-nav .prev:hover, .pf:not(:last-child) .page-nav .next:hover {
-	text-decoration: underline;
-	/* on hover of not-disabled ones */
-}
+.pf[data-page-no='1'] .page-nav .prev, .pf:last-child  .page-nav .next { color: rgb(150, 150, 150); }
 
 .pf .fullscreen {
-	visibility: hidden;
-	position: absolute;
 	top: 1em;
 	left: 50%;
 	transform: translate(-50%);
-	font-size: 10px;
 	color: inherit;
 	text-decoration: none;
 }
-
-.pf .fullscreen:hover { text-decoration: underline; }
-
-body:hover .pf .fullscreen { visibility: visible; }
