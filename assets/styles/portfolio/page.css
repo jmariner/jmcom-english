@@ -227,6 +227,7 @@ main .md h2 {
 
 main .md p {
 	font-size: 24px;
+	text-indent: 50px;
 }
 
 body[data-location$='-sources'] main .md { overflow: hidden; }
