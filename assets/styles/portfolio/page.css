@@ -230,6 +230,9 @@ main .md p {
 	text-indent: 50px;
 }
 
+main .md a:link, main .md a:hover { color: rgb(0, 255, 255); }
+main .md a:visited, main .md a:active { color: rgb(0, 125, 125); }
+
 body[data-location$='-sources'] main .md { overflow: hidden; }
 
 body[data-location$='-sources'] main .md li {
