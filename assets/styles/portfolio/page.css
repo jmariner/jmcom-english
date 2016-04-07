@@ -36,13 +36,13 @@ header > * { width: 100%; }
 	font-size: 20px;
 }
 
-nav {
+header nav {
 	display: flex;
 	font-size: 20px;
 	background-color: rgb(202, 149, 1);
 }
 
-nav a {
+header nav a {
 	text-align: center;
 	color: rgb(0,0,0);
 	text-decoration: blink;
@@ -52,7 +52,7 @@ nav a {
 
 @media screen and (max-width: 1080px) { /* small screens? */
 
-	nav {
+	header nav {
 		flex-direction: column;
 		position: fixed;
 		top: 0;
@@ -65,7 +65,7 @@ nav a {
 
 	header.navActive nav { left: 0; }
 
-	nav a {
+	header nav a {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -102,16 +102,16 @@ nav a {
 
 @media screen and (min-width: 1080px) { /*large-enough screen*/
 
-	nav {
+	header nav {
 		height: 36px;
 		line-height: 36px;
 	}
 
-	nav a {
+	header nav a {
 		position: relative;
 	}
 
-	nav a.current:before {
+	header nav a.current:before {
 		content: "";
 		width: 0;
 		height: 0;
@@ -125,7 +125,7 @@ nav a {
 		border-bottom: none;
 	}
 
-	nav a.current:hover:after {
+	header nav a.current:hover:after {
 		content: "";
 		width: 0;
 		height: 0;
@@ -143,7 +143,7 @@ nav a {
 
 }
 
-nav a:hover {
+header nav a:hover {
 	background-color: rgba(255,255,255,0.3);
 }
 
@@ -231,6 +231,38 @@ main .md p {
 }
 
 main .md p + iframe.document { margin-top: 16px; } /* iframe after a p */
+
+main .md div.double-viewer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+main .md div.double-viewer nav {
+	background-color: rgb(202, 149, 1);
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main .md div.double-viewer nav div {
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+	font-size: 36px;
+	padding: 4px 0;
+}
+
+main .md div.double-viewer nav div:hover { background-color: rgba(0, 0, 0, 0.25); }
+
+main .md div.double-viewer iframe.document { display: none; }
+main .md div.double-viewer[data-which="first"] iframe.document:nth-of-type(1),
+main .md div.double-viewer[data-which="second"] iframe.document:nth-of-type(2) { 
+	display: initial;
+}
 
 main .md a:link, main .md a:hover { color: rgb(0, 255, 255); }
 main .md a:visited, main .md a:active { color: rgb(0, 125, 125); }
