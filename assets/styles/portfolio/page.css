@@ -221,7 +221,7 @@ main .md h1 {
 
 main .md h2 {
 	font-size: 30px;
-	margin: 32px 0 32px 0;
+	margin: 32px 0 16px 0;
 	text-align: center;
 }
 
@@ -229,6 +229,8 @@ main .md p {
 	font-size: 24px;
 	text-indent: 50px;
 }
+
+main .md p + iframe.document { margin-top: 16px; } /* iframe after a p */
 
 main .md a:link, main .md a:hover { color: rgb(0, 255, 255); }
 main .md a:visited, main .md a:active { color: rgb(0, 125, 125); }
@@ -241,7 +243,7 @@ body[data-location$='-sources'] main .md li {
 	text-overflow: ellipsis;
 }
 
-.heading-link {
+main .md h1 a.heading-link, main .md h2 a.heading-link, main .md h3 a.heading-link {
 	font-size: 16px;
 	color: inherit;
 	text-decoration: none !important;
@@ -249,7 +251,7 @@ body[data-location$='-sources'] main .md li {
 	visibility: hidden;
 }
 
-h2:hover .heading-link, h3:hover .heading-link { visibility: visible; }
+main .md h1:hover a.heading-link, main .md h2:hover a.heading-link, main .md h3:hover a.heading-link { visibility: visible; }
 
 footer .center a { padding: 0 .5em; }
 footer .center a:not(:last-child) {	border-right: solid 1px black; }

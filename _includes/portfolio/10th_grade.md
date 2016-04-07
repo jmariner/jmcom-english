@@ -10,6 +10,8 @@ Two of the projects I had to complete this year really stand out, one for being 
 Regardless of the struggles this school year, I really enjoyed most of my teachers, including my english teacher Mrs. Scheible, who kept english class entertaining enough for me. I definitely learned a lot of lessons this year, and from this point on I became much more comfortable with the high school life.
 
 ##Original Piece
+The original assignment was a prompt about the story _Anthem_, which is at the top of the paper. This essay had to be written in APA format, with a references page and in-text citations. I had to explain what collectivism, totalitarianism, and individualism are as well as answer the question of why leaders would separate child from parent. I chose this particular work since I felt it wasn't by best work and could be reflected upon very well.
+
 <iframe class="document autofit" src="original/doc.html" scrolling="no"></iframe>
 
 ##Reflection

@@ -10,6 +10,8 @@ While almost all of the projects throughout this year were group projects, leavi
 All in all, my English teacher and classmates were an incredible welcome to the high school life. Freshman year really built my personality and self-confidence and left a lasting impact on my life.
 
 ##Original Piece
+The original assignment asks to explain what makes _Animal Farm_ an allegorical satire of the Russian Revolution. I had to choose three satirical devices, pick out examples of each one from the novel, and mention what part of the Revolution it alludes to. I chose this writing because it was the longest and most detailed writing from this year and it was about one of my favorite stories.
+
 <iframe class="document autofit" src="original/doc.html" scrolling="no"></iframe>
 
 ##Rewrite
