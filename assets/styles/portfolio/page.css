@@ -63,6 +63,12 @@ header nav a {
 		transition: left 0.25s ease-in;
 	}
 
+	header nav div.dropdown {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 4;
+	}
+
 	header.navActive nav { left: 0; }
 
 	header nav a {
@@ -109,6 +115,19 @@ header nav a {
 
 	header nav a {
 		position: relative;
+	}
+
+	header nav div.dropdown {
+		flex-grow: 1;
+		cursor: pointer;
+	}
+
+	header nav div.dropdown:hover {
+		background-color: rgba(255,255,255,0.3);
+	}
+
+	header nav div.dropdown > a {
+		display: none;
 	}
 
 	header nav a.current:before {
@@ -230,7 +249,10 @@ main .md p {
 	text-indent: 50px;
 }
 
-main .md p + iframe.document { margin-top: 16px; } /* iframe after a p */
+main .md p + iframe.document,
+main .md p + div.double-viewer { /* iframe or .double-viewer after a p */
+	margin-top: 16px;
+} 
 
 main .md div.double-viewer {
 	display: flex;
