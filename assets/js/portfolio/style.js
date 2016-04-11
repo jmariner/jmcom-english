@@ -25,4 +25,13 @@ function onResize() {
 	$("div.double-viewer iframe.autofit").height(function() {
 		return $(this).parent().width() * (11/8.5);
 	});
+
+	if ($(document).width() >= 1080) {
+		var $dropdownTitle = $("header nav a.dropdown_title");
+		var $dropdown = $("header nav div.dropdown");
+
+		var rect = $dropdownTitle.get(0).getBoundingClientRect();
+		$dropdown.css("left", rect.left).css("top", rect.bottom).height(4 * $dropdownTitle.height()).width($dropdownTitle.width());
+		//$dropdownTitle.width($dropdown.width());
+	}
 }
