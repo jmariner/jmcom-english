@@ -27,11 +27,15 @@ function onResize() {
 	});
 
 	if ($(document).width() >= 1080) {
-		var $dropdownTitle = $("header nav a.dropdown_title");
-		var $dropdown = $("header nav div.dropdown");
-
-		var rect = $dropdownTitle.get(0).getBoundingClientRect();
-		$dropdown.css("left", rect.left).css("top", rect.bottom).height(4 * $dropdownTitle.height()).width($dropdownTitle.width());
-		//$dropdownTitle.width($dropdown.width());
+		/*var dropdownFunc = function() {
+			$("header nav div.dropdown").one("click", function() {
+				$(this).addClass("active");
+				$(document).one("click", function() {
+					$("header nav div.dropdown").removeClass("active");
+					dropdownFunc();
+				});
+			});
+		};
+		dropdownFunc();*/
 	}
 }
