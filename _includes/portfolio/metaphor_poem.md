@@ -1,2 +1,4 @@
-#Original Piece
-<iframe class="document autofit" src="doc.html" scrolling="no"></iframe>
+#Dear Reader
+
+##Metaphor Poem
+<iframe class="document autofit" src="nomemories/doc.html" scrolling="no"></iframe>

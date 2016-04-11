@@ -115,11 +115,9 @@ header nav a {
 		line-height: 36px;
 	}
 
-	header nav a {
+	header nav a, header nav > div.dropdown {
 		position: relative;
 	}
-
-	header nav div.dropdown > a.dropdown_title { cursor: pointer; }
 
 	header nav div.dropdown {
 		height: 100%;
@@ -134,15 +132,17 @@ header nav a {
 		z-index: 999;
 	}
 
-	header nav div.dropdown:hover, header nav div.dropdown.current { height: 500%; }
+	header nav div.dropdown > a.dropdown_title { cursor: pointer; }
+
+	header nav div.dropdown:hover, header nav div.dropdown.active { height: 500%; }
+	header nav div.dropdown:hover { transition-delay: .1s; }
 
 	header nav div.dropdown > a { width: 100%; }
 
-	header nav div.dropdown > a.current:before {
-		content: "* ";
-	}
+	header nav div.dropdown > a.current:before { content: "★ "; }
+	header nav div.dropdown > a.current:after { content: "\00a0\00a0\00a0";	}
 
-	header nav > a.current:before {
+	header nav > a.current:before, header nav > div.dropdown.current a.dropdown_title:before {
 		content: "";
 		width: 0;
 		height: 0;

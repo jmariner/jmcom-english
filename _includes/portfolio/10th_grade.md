@@ -9,7 +9,7 @@ Two of the projects I had to complete this year really stand out, one for being 
 
 Regardless of the struggles this school year, I really enjoyed most of my teachers, including my English teacher Mrs. Scheible, who kept English class entertaining enough for me. I definitely learned a lot of lessons this year, and from this point on I became much more comfortable with the high school life.
 
-##This Year's Piece
+##Introduction
 The original assignment was an essay with a given prompt questioning why totalitarian leaders choose to separate children from their families that was to be answered using Any Rand’s novel, _Anthem_. The first thing that had to be done in order to write this essay was to decide on three major answers to the question to write about, with each point being introduced at the beginning and being detailed in a separate paragraph. Then, a rough and eventually final draft were written. I chose this particular work since I felt it wasn't my best work and could be reflected upon very well.
 
 <div class="double-viewer">

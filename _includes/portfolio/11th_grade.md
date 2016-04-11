@@ -9,7 +9,7 @@ Two of the biggest English projects from this school year were a persuasive essa
 
 By the end of this third year of high school, I felt extremely comfortable with how I was handling myself and I finally began feeling like I know what I'm doing in school. This year was filled with many supportive teachers, incredible projects, and even better accomplishments; and it definitely prepared me for the final stretch Senior year.
 
-##This Year's Piece
+##Introduction
 The original assignment was a literary analysis on the novel _The Great Gatsby_ by F. Scott Fitzgerald about the decline of the American Dream through the advancement of technology. In order to create this essay, the teacher offered a simple outline template that was optional and left it up to the students to determine how to use it. After outlining, the teacher had the students write a single paragraph for each assignment so that they could be proofread and revised appropriately. In the end the paragraphs were put together and edited for flow and continuity. I chose this writing to be a part of my portfolio because I feel like it was one of by best writings and because the story was great.
 
 <div class="double-viewer">

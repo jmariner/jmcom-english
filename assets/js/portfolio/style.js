@@ -2,7 +2,7 @@ $(function() {
 	onResize();
 
 	var loc = $("body").attr("data-location");
-	$("nav a." + /^portfolio\-(.+)$/.exec(loc)[1]).addClass("current");
+	$("nav ." + /^portfolio\-(.+)$/.exec(loc)[1]).addClass("current");
 
 	var $dubViewer = $("main .md div.double-viewer");
 	var $first = $("<div>").addClass("first").text($dubViewer.find("iframe:nth-of-type(1)").text())
@@ -26,16 +26,5 @@ function onResize() {
 		return $(this).parent().width() * (11/8.5);
 	});
 
-	if ($(document).width() >= 1080) {
-		/*var dropdownFunc = function() {
-			$("header nav div.dropdown").one("click", function() {
-				$(this).addClass("active");
-				$(document).one("click", function() {
-					$("header nav div.dropdown").removeClass("active");
-					dropdownFunc();
-				});
-			});
-		};
-		dropdownFunc();*/
-	}
+	if ($(document).width() >= 1080) {}
 }
