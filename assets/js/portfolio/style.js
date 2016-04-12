@@ -4,6 +4,10 @@ $(function() {
 	var loc = $("body").attr("data-location");
 	$("nav ." + /^portfolio\-(.+)$/.exec(loc)[1]).addClass("current");
 
+	$(".md a:not(.heading-link)").attr("target", function() {
+		return (this.hostname !== window.location.hostname) ? "_blank" : undefined;
+	});
+
 	var $dubViewer = $("main .md div.double-viewer");
 	var $first = $("<div>").addClass("first").text($dubViewer.find("iframe:nth-of-type(1)").text())
 		.click(function() { $dubViewer.attr("data-which", "first"); });
