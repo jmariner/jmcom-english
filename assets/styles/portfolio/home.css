@@ -82,7 +82,7 @@ main a {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	border: ridge 15px rgb(193, 149, 38);
+	border: ridge 15px rgb(202, 149, 1);
 	z-index: 8;
 }
 
@@ -106,7 +106,7 @@ main .inner {
 }
 
 main .outer a:hover {
-	border-color: rgb(223, 179, 78);
+	border-color: rgb(242, 189, 41);
 }
 
 main .outer .inner {
@@ -130,7 +130,7 @@ main .inner div {
 	left: 50%;
 	padding: 16px;
 	background-color: rgba(0,0,0,0.9);
-	color: rgb(233, 189, 78);
+	color: rgb(202, 149, 1);
 }
 
 main .inner .title {
@@ -150,5 +150,3 @@ main .inner .desc {
 main div.outer:not(.wide) .inner .desc {
 	min-width: 75%;
 }
-
-	color: rgb(202, 149, 1);
