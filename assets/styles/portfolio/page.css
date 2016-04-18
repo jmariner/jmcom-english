@@ -261,10 +261,14 @@ main .md p {
 	text-indent: 50px;
 }
 
+main .md li {
+	font-size: 24px;
+}
+
 main .md p + iframe.document,
 main .md p + div.double-viewer { /* iframe or .double-viewer after a p */
 	margin-top: 16px;
-} 
+}
 
 main .md div.double-viewer {
 	display: flex;
@@ -304,6 +308,7 @@ main .md a:visited, main .md a:active { color: rgb(0, 125, 125); }
 body[data-location$='-sources'] main .md { overflow: hidden; }
 
 body[data-location$='-sources'] main .md li {
+	color: rgb(0, 125, 125);
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;

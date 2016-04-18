@@ -10,7 +10,7 @@ This year was very heavy with writings - essays, poems, scripts for skits, and a
 Even if this year isn't entirely done yet at the time of writing this, I know it'll end just as well as it has been going. It's been a great four years here at Ocean Lakes, with numerous teachers, students, and traditions leaving a lasting impact on my life and shaping who I am today. Thank you, Ocean Lakes.
 
 ##Introduction
-This assignment was a literary analysis of Orwell's _1984_, where I was tasked with determining if Orwell managed to predict what is happening in today's society. It was first outlined very rigidly around 11 quotes - 1 for hook, 1 for conclusion, and 3 for each of the 3 body paragraphs. This outline ended up consisting of most of the essay's content, making the assembly of the final paper much easier. I chose this for my portfolio because (1) I had to and (2) it definitely had room for rewriting.
+This assignment was a literary analysis of Orwell's _1984_, where I was tasked with determining if Orwell managed to predict what is happening in today's society. It was first outlined very rigidly around 11 quotes - one for the hook, one for the conclusion, and one for each of the 3 body paragraphs. This outline ended up consisting of most of the essay's content, making the assembly of the final paper much easier. I chose this for my portfolio because (1) I was forced to and (2) it definitely had room for rewriting.
 
 <div class="double-viewer">
 	<iframe class="document autofit" src="original/doc.html" scrolling="no">Original</iframe>

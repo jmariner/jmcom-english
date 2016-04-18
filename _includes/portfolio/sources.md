@@ -1,5 +1,11 @@
 #Sources
 
+##Home
+- <http://www.mit.edu/~gil/images/mit_logo.gif>
+- <https://upload.wikimedia.org/wikipedia/commons/d/d1/ECPI-Seal.png>
+- <http://www.vmock.com/blog/wp-content/uploads/2014/01/College_Clip_Art.jpg>
+- <http://demilked.uuuploads.com/free-paper-textures/free-paper-texture-38.jpg>
+
 ##9th Grade
 - <https://upload.wikimedia.org/wikipedia/en/archive/d/d9/20100115152653!Virginia_new_sign.jpg>
 - <http://technabob.com/blog/wp-content/uploads/2009/06/ti_boy_ti_84_gameboy_emulator.jpg>

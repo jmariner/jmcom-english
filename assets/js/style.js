@@ -11,6 +11,10 @@ $(function() {
 		$("header").removeClass("navActive");
 	});
 
+	$("body[data-location$='-sources'] .md li").attr("title", function(){
+		return $(this).children("a").text();
+	});
+
 	$(".md h2, .md h3")
 	.attr("id", function(i, old){
 		return old.replace(/[^a-zA-Z0-9\-]/g, "").split("-").slice(0, 7).join("-");
