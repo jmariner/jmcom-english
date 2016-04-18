@@ -1,0 +1,11 @@
+---
+layout: portfolio
+title: Senior Portfolio - Home
+location: portfolio-home
+---
+<main class="no-images">
+	<div class="md">
+		{% capture mark %}{% include portfolio/temp_home.md %}{% endcapture %}
+		{{ mark | markdownify }}
+	</div>
+</main>
