@@ -179,15 +179,31 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	position: relative;
 	margin: 16px 0 64px 0;
 	padding-bottom: 64px;
 	width: 95%;
 	min-height: 75vh;
+	border: 5px solid rgb(202, 149, 1);
+}
+
+main:before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	bottom: 0; right: 0;
+	z-index: 1;
 	background: url("/assets/img/carbon_fiber_background.jpg");
 	background-repeat: repeat;
 	background-size: 5%;
-	border: 5px solid rgb(202, 149, 1);
+	-webkit-filter: blur(2px);
+	-moz-filter: 	blur(2px);
+	-o-filter: 		blur(2px);
+	-ms-filter: 	blur(2px);
+	filter: 		blur(2px);
 }
+
+main > * { z-index: 2; }
 
 @media screen and (min-width: 1080px) { /*large-enough screen*/
 
