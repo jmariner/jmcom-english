@@ -139,8 +139,12 @@ header nav a {
 
 	header nav div.dropdown > a { width: 100%; }
 
-	header nav div.dropdown > a.current:before { content: "★ "; }
-	header nav div.dropdown > a.current:after { content: "\00a0\00a0\00a0";	}
+	header nav div.dropdown > a:after { content: "\00a0\00a0\00a0"; }
+	header nav div.dropdown > a:before {
+		content: "★ ";
+		visibility: hidden;
+	}
+	header nav div.dropdown > a.current:before { visibility: visible; }
 
 	header nav > a.current:before, header nav > div.dropdown.current a.dropdown_title:before {
 		content: "";
